@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98e68cc4-8acb-47a9-bdb6-6bd454210bbe" name="Changes" comment="" />
+    <list default="true" id="98e68cc4-8acb-47a9-bdb6-6bd454210bbe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/image/__background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/sergey-pesterev-1156037-unsplash.png.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +45,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "<unknown>",
+    "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "22.13.0",
     "javascript.nodejs.core.library.typings.version": "22.10.5",
     "node.js.detected.package.eslint": "true",
@@ -78,7 +85,8 @@
       <workItem from="1736018928358" duration="7868000" />
       <workItem from="1736079369746" duration="20944000" />
       <workItem from="1736795057173" duration="55000" />
-      <workItem from="1736795117928" duration="11622000" />
+      <workItem from="1736795117928" duration="23893000" />
+      <workItem from="1737923119134" duration="7386000" />
     </task>
     <servers />
   </component>
