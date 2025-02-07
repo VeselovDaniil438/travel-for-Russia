@@ -124,12 +124,22 @@ body {
 
 .places .container {
   color: #ffffff;
-  max-width: 1184px;
-  gap: 40px;
+  max-width: 1003px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  padding: 0px;
+  padding-top: 92px;
 }
 .place-card {
+  display: flex;
+  flex-direction: row;
+  max-width: 1003px;
+  margin: 0 auto;
+  padding-left: 19px;
+  column-gap: 40px;
+}
+
+.place-content {
   display: flex;
   flex-direction: column;
   max-width: 460px;
@@ -140,8 +150,6 @@ body {
   font-size: 72px;
   line-height: 76px;
   max-width: 460px;
-  padding-top: 92px;
-  row-gap: 40px;
 }
 
 .place__image {
@@ -153,16 +161,16 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 484px;
-  margin: 0 auto;
 }
 
 .place__url-heading {
   font-size: 12px;
   color: #aaaaaa;
   letter-spacing: 2px;
-  padding-top: 198px;
+  padding-top: 106px;
   max-width: 456px;
 }
+
 .place__url-heading:hover {
   opacity: 30%;
 }
@@ -174,6 +182,12 @@ body {
   max-width: 456px;
 }
 
+/*.place-description {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  max-width: 484px;*/
+/*  margin: 0 auto;*/
+/*}*/
 .place__paragraph {
   font-size: 18px;
   color: #ffffff;
@@ -187,21 +201,24 @@ body {
   padding-bottom: 22px;
 }
 
+.cover {
+  padding-top: 92px;
+}
+
 .cover .container {
   justify-content: center;
 }
 
 .cover__overlay {
   background-image: url("../image/__background.jpg");
-  background-repeat: no-repeat;
-  background-position-y: 92px;
-  background-size: 1184px;
-  height: 740px;
+  background-size: cover;
+  transition: all 0.5s ease;
 }
 
 .cover__overlay:hover {
-  opacity: 30%;
-  color: #ffffff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../image/__background.jpg");
+  cursor: pointer;
 }
 
 .cover__title {
@@ -219,12 +236,12 @@ body {
 .cover__subtitle {
   text-align: center;
   color: #ffffff;
-  left: 460px;
   font-size: 18px;
-  margin: 0 auto;
   max-width: 360px;
+  margin: 0 auto;
   line-height: 22px;
   padding-top: 32px;
+  padding-bottom: 240px;
 }
 
 .cover__background {
@@ -251,7 +268,8 @@ body {
   gap: 18px;
   padding-bottom: 24px;
 }
-.footer__link:hover {
+.footer__link p:hover {
+  cursor: pointer;
   opacity: 30%;
 }
 
