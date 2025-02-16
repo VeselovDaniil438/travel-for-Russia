@@ -274,3 +274,9 @@ body {
   padding-top: 92px;
   padding-bottom: 24px;
 }
+
+@media (max-width: 1024px) {
+  .intro .container {
+    margin-left: 0px;
+  }
+}
