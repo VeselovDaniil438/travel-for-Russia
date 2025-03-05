@@ -40,16 +40,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Debug",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "adaptive-320",
     "javascript.nodejs.core.library.configured.version": "22.13.0",
-    "javascript.nodejs.core.library.typings.version": "22.10.5",
+    "javascript.nodejs.core.library.typings.version": "22.13.9",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/usr/local/lib/node_modules/prettier",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.sourceCode.CSS",
     "vue.rearranger.settings.migration": "true"
   }
@@ -63,10 +65,20 @@
       <recent name="$PROJECT_DIR$/image" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled8/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
       </set>
     </attachedChunks>
   </component>
@@ -84,6 +96,14 @@
       <workItem from="1736795117928" duration="23893000" />
       <workItem from="1737923119134" duration="8647000" />
       <workItem from="1738165404846" duration="39203000" />
+      <workItem from="1741119904962" duration="1244000" />
+      <workItem from="1741195303190" duration="707000" />
+      <workItem from="1741197280639" duration="696000" />
+      <workItem from="1741204021182" duration="33000" />
+      <workItem from="1741206240093" duration="49000" />
+      <workItem from="1741207219140" duration="179000" />
+      <workItem from="1741208223303" duration="70000" />
+      <workItem from="1741208307897" duration="3619000" />
     </task>
     <servers />
   </component>
@@ -95,7 +115,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/adaptive-320" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
