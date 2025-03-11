@@ -206,6 +206,8 @@ body {
 }
 
 .cover__overlay {
+  max-width: 1184px;
+  height: 740px;
   background-image: url("../image/__background.jpg");
   background-size: cover;
   transition: all 0.5s ease;
@@ -225,7 +227,7 @@ body {
   margin: 0 auto;
   text-align: center;
   line-height: 76px;
-  padding-top: 337px;
+  padding-top: 245px;
 }
 
 .cover__subtitle {
@@ -394,7 +396,7 @@ body {
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .container {
     overflow: hidden;
     margin: 0 auto;
